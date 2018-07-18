@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>用户中心</h1>
+    <h1>消息中心啊</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
     name: 'HelloWorld',
     data() {
       return {
-        msg: '用户中心'
+        msg: '消息中心啊'
       }
     }
   }

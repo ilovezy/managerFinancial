@@ -6,6 +6,7 @@ import UserCenterPage from '@/page/UserCenter/UserCenterPage'
 import HomePageDefault from '@/page/HomePageDefault'
 import WithTabPage from '@/page/WithTab/WithTabPage'
 import DataListPage from '@/page/DataList/DataListPage'
+import MessageCenterPage from '@/page/MessageCenter/MessageCenterPage'
 
 Vue.use(Router)
 
@@ -27,6 +28,9 @@ export default new Router({
       }, {
         path: 'dataList',
         component: DataListPage
+      }, {
+        path: 'messageCenter',
+        component: MessageCenterPage
       }]
     },
     {
