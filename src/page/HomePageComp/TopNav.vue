@@ -1,6 +1,6 @@
 <template>
   <div class="top-nav-bar">
-    <div class="top-nav-bar-left">
+    <div class="top-nav-bar-left" @click="goHome">
       <span class="user-avatar">
         <img src="@/assets/avatar.png" alt="">
       </span>
@@ -59,6 +59,10 @@
             this.$router.push('/login')
           })
           .catch(_ => {})
+      },
+
+      goHome(){
+        this.$router.push('/')
       }
     }
   }
