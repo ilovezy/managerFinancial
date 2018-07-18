@@ -1,24 +1,18 @@
 <template>
   <div class="home-page-default">
-    <h1>默认首页内容</h1>
+    <h1>
+      默认首页内容
+      <el-button :plain="true" @click="sayFuck">警告</el-button>
+      <el-button :plain="true" @click="goLogin">去登陸</el-button>
+    </h1>
     <p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
-    </p><p>
-      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus. Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus. Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus, recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
+      hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut
+      voluptate. At delectus dolore ea fuga modi, nam nulla porro quis tempore voluptate. Ducimus, iure, minus.
+      Aspernatur aut autem dolor id ipsum natus perspiciatis quam repellat sunt temporibus. Commodi dicta distinctio
+      earum esse et fuga id iusto magnam nihil nobis non nulla odio pariatur quam quidem quo quod quos reprehenderit
+      repudiandae saepe sequi similique, velit veniam. Dolorem eligendi fugit odio quidem quisquam repellat, temporibus.
+      Atque deserunt error ex illum laboriosam, laborum, laudantium magni maxime necessitatibus pariatur possimus,
+      recusandae reprehenderit unde vero voluptatibus? Iusto, qui, tempora!
     </p>
   </div>
 </template>
@@ -26,12 +20,24 @@
 <script>
   export default {
     name: 'HelloWorld',
-    mounted(){
-      alert('fuck')
+    mounted() {
+      this.sayFuck()
     },
     data() {
       return {
         msg: '用户中心'
+      }
+    },
+    methods: {
+      sayFuck() {
+        this.$message({
+          message: 'fuck，这是一条成功消息',
+          type: 'success'
+        });
+      },
+
+      goLogin(){
+        this.$router.push('/login')
       }
     }
   }
@@ -40,4 +46,13 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less" scoped>
   @import "./HomePageDefault";
+
+  h1 {
+    display: flex;
+    align-items: center;
+
+    .el-button {
+      margin-left: 10px;
+    }
+  }
 </style>

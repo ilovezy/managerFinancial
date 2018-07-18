@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from '@/page/HomePage'
-import LoginPage from '@/page/LoginPage'
-import UserCenterPage from '@/page/UserCenterPage'
+import LoginPage from '@/page/Login/LoginPage'
+import UserCenterPage from '@/page/UserCenter/UserCenterPage'
 import HomePageDefault from '@/page/HomePageDefault'
 import WithTabPage from '@/page/WithTab/WithTabPage'
 import DataListPage from '@/page/DataList/DataListPage'
@@ -16,7 +16,8 @@ export default new Router({
       name: 'homePage',
       component: HomePage,
       children: [{
-        path: '', component: HomePageDefault
+        path: '',
+        component: HomePageDefault
       }, {
         path: 'userCenter',
         component: UserCenterPage,
