@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
-import Layout from '@/components/Layout'
+import HomePage from '@/page/HomePage'
+import LoginPage from '@/page/LoginPage'
+import UserCenterPage from '@/page/UserCenterPage'
+import HomePageDefault from '@/page/HomePageDefault'
+import WithTabPage from '@/page/WithTab/WithTabPage'
+import DataListPage from '@/page/DataList/DataListPage'
 
 Vue.use(Router)
 
@@ -9,13 +13,25 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'homePage',
+      component: HomePage,
+      children: [{
+        path: '', component: HomePageDefault
+      }, {
+        path: 'userCenter',
+        component: UserCenterPage,
+      }, {
+        path: 'withTab',
+        component: WithTabPage
+      }, {
+        path: 'dataList',
+        component: DataListPage
+      }]
     },
     {
-      path: '/layout',
-      name: 'Layout',
-      component: Layout
+      path: '/login',
+      name: 'loginPage',
+      component: LoginPage
     }
   ]
 })
