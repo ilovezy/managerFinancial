@@ -1,9 +1,8 @@
 <template>
   <div class="home-page-default">
     <h1>
-      默认首页内容
+      <span id="fuck">默认首页内容</span>
       <el-button :plain="true" @click="sayFuck">警告</el-button>
-      <el-button :plain="true" @click="goLogin">去登陸</el-button>
     </h1>
     <p>
       hello come Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus eveniet labore numquam qui sit ut
@@ -21,7 +20,9 @@
   export default {
     name: 'HelloWorld',
     mounted() {
-      this.sayFuck()
+      // this.sayFuck()
+
+      $('#fuck').css('color', 'red')
     },
     data() {
       return {
@@ -35,10 +36,6 @@
           type: 'success'
         });
       },
-
-      goLogin(){
-        this.$router.push('/login')
-      }
     }
   }
 </script>

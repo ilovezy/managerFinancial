@@ -13,10 +13,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'homePage',
       component: HomePage,
       children: [{
         path: '',
+        name: 'homePageDefault',
         component: HomePageDefault
       }, {
         path: 'userCenter',
